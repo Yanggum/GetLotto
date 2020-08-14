@@ -1,0 +1,13 @@
+﻿<Window x:Class="GetLotto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GetLotto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="btnLotto" Content="뽑기" Click="btnLotto_Click" Height="40" VerticalAlignment="Top" HorizontalAlignment="Center" Width="380" Margin="0,52,0,0"/>
+        <TextBox x:Name="tbLotto" Margin="0,20,0,0" TextWrapping="Wrap" HorizontalAlignment="Center" Width="380" Height="27" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
